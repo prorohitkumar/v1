@@ -1,0 +1,57 @@
+Create a Case Study that can be rolled out as it is as a learning activity. 
+The case study should be for the {{ role }}. Below is the scenario of the case study:
+
+"{{ scenario_description }}"
+
+Generate the case study in the following format: 
+### Case Study:  {{ case_study_name }}
+
+### Background ### 
+It should include a fictitious company name, and describe what the company does, the challenges that they are facing, and other relevant background information in approximately 75 words.
+
+### Learning Objectives ### 
+It should include the outcomes to be achieved post completion of this case study in a bulleted list. Each outcome should start with an actionable verb without gerund (ing).
+
+### Pre-requisite ### 
+It should include in a bulleted list the pre-requisite knowledge and skills that participants should possess to complete the case study.
+
+### Proposed Solution ### 
+It should include the solution that will solve the case study problem and meet the learning objectives in a bulleted list. Each list item should start with an actionable verb without gerund (ing).
+
+This Case study should be implemented by {{ number_of_participants }} participants. If user doesn't give any value it should take 1 by default.
+
+Participants should be able to complete the case study in {{ duration_in_hrs }} hrs. If user doesn't give any value it should take 12 by default.
+
+### Implementation Steps ### 
+It should include the steps that the participant is expected to perform for completing the case study.
+Provide the steps as a numbered list. It should distribute the time equally between the participants for the steps in the following format (Below is the format for n participants) and also make sure number of participants should be equal to the {{ number_of_participants }} and total sum of x hrs assigned to each participant should be equal to the {{ duration_in_hrs }}:
+
+Participant 1 (x hrs)
+Step 1
+Step 2
+
+Participant 2 (x hrs)
+Step 3
+Step 4
+
+...
+Participant n (x hrs)
+Step 5
+Step 6
+
+If you want some implementation steps to be carried out by all participants, then mention that in the following format and also time assigned here is included in sum of x hrs so that x hrs should always remain to the {{ duration_in_hrs }} hrs:
+All Participants (x hrs)
+Step 7
+Step 8
+
+Ensure that the total duration assigned to each participant and the shared tasks sum up exactly to {{ duration_in_hrs }} hrs and there are exactly {{ number_of_participants }} participants.
+
+### Discussion Points ### 
+It should include the points such as approach taken to complete the case study, challenges faced during completing the case study, use cases on how this case study will positively impact in their workplace environment, roadmap on how the case study can be carried forward by introducing new features. 
+
+### Infrastructure and Materials Requirement ### 
+It should include in a bulleted list any software tools/libraries/frameworks/platforms and any physical materials required to complete the case study.
+
+Do not include any other points beside the above mentioned ones. Not even any notes or conclusions. 
+The Case study should be based on the {{ keywords }} keywords.
+The Case study should make use of {{ tools_and_technologies }}.

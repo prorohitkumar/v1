@@ -1,0 +1,23 @@
+{% block content %}
+List all possible user stories for a {{application_type}} product's {{feature}} feature for {{feature_for}} development used by {{user_role}}. 
+
+Each user story should be accompanied by criteria that define when the story is considered complete, including both functional and non-functional requirements.
+
+Return your response in an array of JSON objects. Each object will have a 'userStory' key.
+
+Below is the example structure that you should return your response in: 
+[
+{
+"userStory": "As a product administrator, I want to be able to verify if a user has registered a specific product using a guest user account, so that I can provide support if needed",
+},
+{
+"userStory": "As a product administrator, I want to be able to view the registration details of a specific product registered by a guest user, so that I can track warranty information and usage history",
+}
+]
+
+Important: Analyze the input and determine if it is sufficient and relevant to generate user stories.
+If the input is irrelevant or incomplete, return the following JSON response: 
+
+[{"userStory": "We cannot generate user stories from the given input. Please provide more relevant information about the application type, feature, and feature_for."}]
+
+{% endblock %}

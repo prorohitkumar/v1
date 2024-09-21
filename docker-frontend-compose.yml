@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  crafter-frontend:
+    build: frontEnd/
+    container_name: frontend
+    restart: always
+    network_mode: "host"
+    hostname: localhost
+    ports:
+      - 3000:3000

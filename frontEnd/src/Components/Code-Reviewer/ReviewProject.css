@@ -1,0 +1,43 @@
+.review-project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Add a light background color for the container */
+}
+
+.card-rp {
+  width: 400px; /* Adjust the width of the card */
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Add a shadow for a professional look */
+  border-radius: 12px; /* Round the corners */
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.or-text {
+  margin: 20px 0;
+  text-align: center; /* Center align the OR text */
+}
+
+.open-project-button {
+  margin-top: 20px;
+  display: block;
+  width: 100%; /* Make the button full width */
+}
+
+.project-name {
+  margin-top: 20px;
+  color: green;
+  text-align: center; /* Center align the project name */
+}
+
+.review-project-button {
+  margin-top: 20px;
+  display: block;
+  width: 100%; /* Make the button full width */
+}

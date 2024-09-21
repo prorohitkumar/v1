@@ -1,0 +1,277 @@
+.mockInetrviewBody {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+.react-chatbot-kit-chat-container {
+  flex: 6;
+  height: 42rem;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin-left: unset;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1.25rem;
+  background-color: white;
+  height: auto;
+  border: 1px solid #ccc; /* Divider style */
+}
+
+.react-chatbot-kit-chat-header {
+  display: none;
+}
+
+.chatbot-container,
+.quiz-container,
+.loading-container {
+  width: 50%;
+  flex: 8;
+  padding-right: 1.25rem; /* Space for the divider */
+  border-right: 1px solid #ccc; /* Divider */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.progressbar-container {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.25rem;
+  position: relative;
+  border: 1px #ccc solid;
+  padding-bottom: 1rem;
+}
+
+.progressbar-container .react-chatbot-kit-chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.progressbar {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.chatbot-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff; /* Change to desired color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 35%;
+}
+
+.pointer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.pointer {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red; /* Default color */
+}
+
+.pointer.attempted {
+  background-color: green; /* Attempted color */
+}
+
+.report-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.row {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row strong {
+  flex: 1;
+}
+
+.row span {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+
+.row span svg {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .chatbot-container,
+  .progressbar-container {
+    flex: unset;
+    width: 100%;
+    border-right: none; /* Remove divider in small screens */
+  }
+
+  .progressbar {
+    position: relative;
+    top: unset;
+    right: unset;
+    margin: 0 auto;
+  }
+}
+
+.report-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.report-content .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.report-content .row strong {
+  font-weight: bold;
+}
+
+.report-content .row span {
+  display: flex;
+  align-items: center;
+}
+
+.report-content .row svg {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.progressbar-container {
+  position: relative;
+  top: unset;
+  right: unset;
+  margin: 0 auto;
+}
+
+.pointer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Circle container to align circles */
+.circle-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+/* Base circle style */
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Active circle style (green) */
+.circle-active {
+  background-color: #00ff00;
+}
+
+/* Inactive circle style (red) */
+.circle-inactive {
+  background-color: #ff0000;
+  cursor: not-allowed;
+}
+
+.chatbot-icon-title {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px; /* Add margin to separate from subsequent rows */
+  margin-left: 30%;
+}
+
+.info-row {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px; /* Add margin for spacing between rows */
+  align-items: center;
+}
+
+.industry {
+  display: flex;
+}
+
+.jobrole {
+  display: flex;
+}
+.topics {
+  display: flex;
+}
+/* .info-row h5 {
+  font-weight: bold;
+} */
+
+.info-row span {
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.self-score,
+.overall-score {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+}
+
+.cirv {
+  width: 70px;
+}

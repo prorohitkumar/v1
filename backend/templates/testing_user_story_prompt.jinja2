@@ -1,0 +1,25 @@
+{% block content %}
+
+List all possible user stories for a QA Engineer for a {{ application_type }} {{ feature }} feature. 
+
+Each user story should be accompanied by criteria that define when the story is considered complete, including both functional and non-functional requirements.
+
+Return your response in an array of JSON objects. Each object will have a 'userStory' key.
+
+Important: Below is an example structure that you should return in your response: 
+[
+{
+"userStory": "As a QA, I want to be able to test if a user can buy a product",
+},
+{
+"userStory": "As a QA, I should be able to test registration on {{ application_type }} Platform",
+}
+]
+
+
+Important: Analyze the input and determine if it is sufficient and relevant to generate user stories.
+If the input is irrelevant or incomplete, return the following JSON response: 
+
+[{"userStory": "We cannot generate user stories from the given input. Please provide more relevant information about the application type, feature."}]
+
+{% endblock %}

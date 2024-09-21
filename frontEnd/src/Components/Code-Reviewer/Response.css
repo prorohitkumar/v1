@@ -1,0 +1,43 @@
+.response-container {
+  height: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-tabs {
+  margin-left: 0;
+}
+
+.custom-tab {
+  color: white !important;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.custom-tab:hover {
+  color: #ffa500 !important; /* Change to your desired hover color */
+  transform: scale(1.1);
+}
+
+.response-box {
+  height: calc(100% - 48px);
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.error-description {
+  padding: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

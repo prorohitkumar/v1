@@ -1,0 +1,15 @@
+.start-btn {
+    background-color: #042947;
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    margin-left: 3rem;
+  }
+
+  .start-btn.disabled {
+    background-color: #dddddd; /* Change to your desired disabled color */
+    color: #aaaaaa; /* Change to your desired text color for disabled state */
+    cursor: not-allowed;
+}

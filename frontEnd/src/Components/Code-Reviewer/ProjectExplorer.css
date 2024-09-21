@@ -1,0 +1,11 @@
+/* ProjectExplorer.css */
+
+.logo-shadow {
+  box-shadow: 3px 2px 12px rgba(0, 0, 0, 1.8), 0px 6px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.logo-shadow:hover {
+  box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.8),
+    0px 12px 40px rgba(0, 0, 0, 0.19);
+}

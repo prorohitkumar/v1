@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  crafter-backend:
+    build: backend/
+    container_name: backend
+    restart: always
+    network_mode: "host"
+    hostname: localhost
+    ports:
+      - "8000:8000"

@@ -1,0 +1,42 @@
+{% for level_info in levels %}
+I want {{ level_info.noOfQuestions }} practice exercise questions of {{ level_info.level }} complexity for the {{ role }} role on the {{ level_info.keywords }}.
+For the exercises, use the {{ tools }} software tools/technologies/platform.
+
+{% if hints %}
+Provide hints if applicable to guide the participant to complete the exercise.
+Provide a list of detailed steps in numbered list format that participant will need to implement the practice exercise.
+
+Give the output in the following format:
+
+## Practice Exercise on {{ level_info.keywords }}
+
+Question 1 (Duration)
+
+###Hints: 1. (if provided)
+        2. (If provided)
+###Steps: 1. (If provided)
+        2. (If provided)
+
+Question 2 (Duration), and so on.
+
+Do not include information on complexity level.
+
+For each practice exercise, suggest the duration in hours and minutes the participant will take to complete the practice exercise.
+
+Besides these questions, do not include any notes or conclusions.
+{% else %}
+Give the output in the following format:
+
+### Practice Exercise on {{ level_info.keywords }}
+
+Question 1 (Duration)
+
+Question 2 (Duration), and so on.
+
+Do not include information on complexity level.
+
+For each practice exercise, suggest the duration in hours and minutes the participant will take to complete the practice exercise.
+
+Besides these questions, do not include any notes or conclusions.
+{% endif %}
+{% endfor %}

@@ -1,0 +1,11 @@
+.bot-avatar-css {
+    width: 50px;
+    height: 35px;
+    border-radius: 25%; /* Ensure a circular shape */
+  
+}
+
+.avatar-image {
+    
+    height: 100%;
+}

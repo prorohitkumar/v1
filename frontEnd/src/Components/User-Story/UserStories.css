@@ -1,0 +1,158 @@
+.userStoryBody {
+  /* background-color: black; */
+  height: 100vh;
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: co; */
+}
+
+.main-body {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.ur-header {
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+  padding-bottom: 0;
+}
+
+.MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: red !important;
+}
+
+.application-chips{
+  margin-left: 7%;
+  margin-right: 1%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.ur-left {
+  width: 40%;
+  padding: 1%;
+  padding-top: 2%;
+  border: 0.125rem solid #000000;
+  margin-left: 1.25rem;
+  margin-right: 20px;
+
+}
+
+.heading {
+  display: flex;
+  padding: 0;
+  justify-content: left;
+}
+
+.ur-right {
+  padding: 1%;
+  width: 55%;
+  border: 0.125rem solid black; /* You can adjust the border width and color */
+  height: 70vh;
+  overflow: auto;
+  scrollbar-width: 0.625rem;
+  scrollbar-color: #0061af transparent;
+}
+
+.application-type {
+  /* margin-left: 26px; */
+  width: 99%;
+}
+
+.second-row {
+  margin-top: 15px;
+  /* margin-left: 10%; */
+  /* border: 2px solid blue; */
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.seconf-row-items {
+  width: 49%;
+  margin-right: 5px;
+}
+
+.init {
+  animation: fadeIn 2s;
+  font-size: 1.5rem;
+  color: rgb(97, 97, 97);
+  text-align: center;
+  margin-top: 2%;
+  /* font-weight: bold; */
+}
+
+.us-button-container {
+  margin-top: 2%;
+  display: flex;
+  justify-content: flex-end; /* Aligns button to the right */
+  /* width: 50%; */
+}
+
+.button-copy {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  position: static;
+}
+
+.input-field {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.input-field .MuiOutlinedInput-input {
+  height: 30px; /* Adjust based on the total input field height */
+}
+
+.scrollable-card-content {
+  max-height: 130px;
+  overflow: auto;
+  scrollbar-width: 0.625rem;
+  scrollbar-color: #0061af transparent;
+}
+
+.scrollable-card-box {
+  max-height: 530px;
+  overflow: auto;
+  scrollbar-width: 0.625rem;
+  scrollbar-color: #0061af transparent;
+}
+
+/* Customize the scrollbar (WebKit browsers) */
+.ur-right::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width as needed */
+}
+
+.ur-right::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Adjust track color if needed */
+}
+
+.ur-right::-webkit-scrollbar-thumb {
+  background: blue; /* Set the thumb color to blue */
+}
+
+.btn-head {
+  display: flex;
+  /* background-color: red; */
+  width: 95%;
+  justify-content: space-between;
+}
+
+.loader {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 18%;
+  width: 200px;
+  top: 15%;
+  z-index: 100; /* Ensure spinner is above other content */
+  backdrop-filter: blur(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 40px;
+}

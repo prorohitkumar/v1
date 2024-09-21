@@ -1,0 +1,172 @@
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.header1 {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 3vh;
+
+}
+
+
+.back-button {
+  background: #0061af;
+  display: flex;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 8px;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  width: auto; /* Set to auto to allow content to dictate the size */
+  min-width: 25px; /* Set a min-width if needed */
+  text-align: center; /* Ensures the text is centered */
+  display: inline-block; 
+  color: #ccc;/* Change display to inline-block to control width */
+}
+
+.blog-card-containers{
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  row-gap: 3vh;
+  /* font-family: 'Roboto', sans-serif; */
+  position: relative;
+  color: rgb(97, 97, 97);
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,9);  
+  width: 51%; 
+  transition: all 0.3s ease;
+  height: 68vb;
+}
+
+.form-container {
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  font-size: 2.5vh;
+  color: rgb(97, 97, 97);
+  /* font-family: 'Roboto', sans-serif; */
+ 
+}
+
+label{
+  font-weight: 400;
+  font-size: 1.3vw;
+  margin-top: 10px;
+  gap: 12px;
+}
+
+.form-container label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+}
+
+.form-container label .MuiTextField-root {
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+#standard-basic {
+  display: flex;
+  width: 26vw;
+  height: 3vh;
+  color: rgb(97, 97, 97);
+  /* font-family: 'Roboto', sans-serif; */
+  }
+
+#outlined-number{
+  display: flex;
+  width: 5vw;
+  height: 3vh;
+  color: rgb(97, 97, 97);
+  margin-top: 20px;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+#standard-select-level{
+  display: flex;
+  width: 10vw;
+  height: 3vh;
+  /* font-family: 'Roboto', sans-serif; */
+  color: rgb(97, 97, 97);
+  margin-top: 20px;
+  
+}
+  
+
+.buttons-container {
+  position: absolute;
+    top: 92%;
+    right: 48.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+}
+
+.success{
+  color: green;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: large;
+}
+
+
+.btt-err-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.error-cont{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 52vh;
+}
+
+
+.blog-response {
+  border: 2px solid grey;
+  padding: 10px;
+  overflow-y: auto;
+  width: 47%;
+  height: 68dvh; 
+}
+
+.spinner-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.iicons{
+display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
+}

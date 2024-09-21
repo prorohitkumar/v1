@@ -1,0 +1,17 @@
+fastapi
+requests
+uvicorn
+httpx
+jinja2
+google-api-python-client
+markdown
+google-generativeai
+asyncio
+typing
+pydantic
+Markdown2docx
+requests-oauthlib
+oauth2client
+python-multipart
+langchain_google_genai
+langchain

@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  min-height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+
+.left-column {
+  flex: 20%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns content to the top */
+  align-items: center; /* Aligns content to the left */
+  border: 1px solid #ccc;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  background-color: #043a75;
+  min-width: 25%;
+}
+
+.right-column {
+  flex: 80%;
+}
+
+.left-column div {
+  flex: 80%;
+}
+
+.document-row {
+  border-bottom: 1px solid #ddd; /* Add a solid border-bottom to create the horizontal line */
+}
+
+/* .react-chatbot-kit-chat-container{
+  width: 75vw !important;
+  min-height: 98%;
+} */
+/* .react-chatbot-kit-chat-bot-message{
+  margin-left: unset;
+  width: 50vw;
+} */
+
+.file-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-file-upload {
+  color: #007bff; /* Set color as per your preference */
+  border: 2px solid #007bff; /* Set border color as per your preference */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.cloud-icon {
+  margin-right: 5px;
+}
+
+/* Hide default file input */
+input[type='file'] {
+  display: none;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 100%;
+}
